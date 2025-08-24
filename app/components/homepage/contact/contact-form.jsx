@@ -139,7 +139,7 @@ function ContactForm() {
               All fiels are required!
             </p>}
             <ReCAPTCHA
-              sitekey="6LeaBrArAAAAACN0eg1zTJIcVUSiau-czHNW9zQY"
+              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
               onChange={handleChange}
               onExpired={handleExpired}
             />
