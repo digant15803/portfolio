@@ -9,7 +9,7 @@ import Skills from "./components/homepage/skills";
 export default async function Home() {
 
   return (
-    <div suppressHydrationWarning >
+    <div className="pt-24" suppressHydrationWarning >
       <HeroSection />
       <AboutSection />
       <Experience />
