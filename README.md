@@ -7,7 +7,7 @@
  <h3><a href="https://digantpatel.netlify.app/">Web-site🔗</a></h3>
   
 </div>
-## 🔗 About Me
+# 🔗 About Me
 
 Dignat Patel
 
