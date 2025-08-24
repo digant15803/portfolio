@@ -5,10 +5,7 @@ import axios from "axios";
 import { useState, useRef} from "react";
 import { TbMailForward } from "react-icons/tb";
 import { toast } from "react-toastify";
-const ReCAPTCHA = dynamic(
-  () => import('react-google-recaptcha'),
-  { ssr: false }
-)
+import ReCAPTCHA from "react-google-recaptcha";
 
 function ContactForm() {
 
