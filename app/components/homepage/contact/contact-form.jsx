@@ -16,7 +16,7 @@ function ContactForm() {
   async function handleCaptchaSubmission(token) {
     try {
       if (token) {
-        await fetch("/api/google", {
+        await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/api/google`, {
           method: "POST",
           headers: {
             Accept: "application/json",
