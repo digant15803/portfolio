@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Portfolio</h1>
 
-<img src="[https://drive.google.com/file/d/1Lwhlc-waedkCSnBJpXPOQJmDhZMKbpBs/view?usp=sharing]" width="250"/>
+<img src="https://drive.google.com/uc?export=view&id=1Lwhlc-waedkCSnBJpXPOQJmDhZMKbpBs" width="250"/>
 </div>
 <div align="center">
  <h3><a href="https://digantpatel.netlify.app/">Web-site🔗</a></h3>
