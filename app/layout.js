@@ -9,7 +9,7 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Digant Patel",
+  title: "Portfolio | Digant Patel",
   description:
     "This is the portfolio of Digant Patel. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
 };
