@@ -72,14 +72,18 @@ function ContactForm() {
         {...userInput, token: captchaToken}
       );
 
-      toast.success("Message sent successfully!");
+      toast.success("Message sent successfully!", {
+        position: 'bottom-right',
+      });
       setUserInput({
         name: "",
         email: "",
         message: "",
       });
     } catch (error) {
-      toast.error(error?.response?.data?.message);
+      toast.error(error?.response?.data?.message, {
+        position: 'bottom-right',
+      });
     } finally {
       setIsLoading(false);
     };
