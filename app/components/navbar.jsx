@@ -84,7 +84,7 @@ function Navbar() {
 
         {/* Mobile menu button */}
         <button
-          className="md:hidden p-2 rounded-md text-[#344966] hover:text-pink-600 transition-colors duration-300"
+          className="md:hidden p-2 rounded-md text-[#ffffff] hover:text-pink-600 transition-colors duration-300"
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
@@ -113,7 +113,7 @@ function Navbar() {
               href="/#about"
               onClick={closeMenu}
             >
-              <div className="text-sm text-[#344966] transition-colors duration-300 hover:text-pink-600 font-bold">
+              <div className="text-sm text-[#ffffff] transition-colors duration-300 hover:text-pink-600 font-bold">
                 ABOUT
               </div>
             </Link>
@@ -124,7 +124,7 @@ function Navbar() {
               href="/#experience"
               onClick={closeMenu}
             >
-              <div className="text-sm text-[#344966] transition-colors duration-300 hover:text-pink-600 font-bold">
+              <div className="text-sm text-[#ffffff] transition-colors duration-300 hover:text-pink-600 font-bold">
                 EXPERIENCE
               </div>
             </Link>
@@ -135,7 +135,7 @@ function Navbar() {
               href="/#skills"
               onClick={closeMenu}
             >
-              <div className="text-sm text-[#344966] transition-colors duration-300 hover:text-pink-600 font-bold">
+              <div className="text-sm text-[#ffffff] transition-colors duration-300 hover:text-pink-600 font-bold">
                 SKILLS
               </div>
             </Link>
@@ -146,7 +146,7 @@ function Navbar() {
               href="/#education"
               onClick={closeMenu}
             >
-              <div className="text-sm text-[#344966] transition-colors duration-300 hover:text-pink-600 font-bold">
+              <div className="text-sm text-[#ffffff] transition-colors duration-300 hover:text-pink-600 font-bold">
                 EDUCATION
               </div>
             </Link>
@@ -157,7 +157,7 @@ function Navbar() {
               href="/#projects"
               onClick={closeMenu}
             >
-              <div className="text-sm text-[#344966] transition-colors duration-300 hover:text-pink-600 font-bold">
+              <div className="text-sm text-[#ffffff] transition-colors duration-300 hover:text-pink-600 font-bold">
                 PROJECTS
               </div>
             </Link>
